@@ -29,7 +29,7 @@ function inviteAllUsers() {
         $('#channel_invite_item').click();
       },200)
       //Enter each letter to trigger searches
-      var remainingLetters = ["a","b","c","d","e","f","g","h","i","j","v","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+      var remainingLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
       selectAllByLetter(remainingLetters);
       if (foundAny) {
         inviteAllUsers();
